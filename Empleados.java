@@ -6,7 +6,7 @@ class Empleados{
 
     public void listarEmpleados(){
 
-        System.out.println("Lista de Empleados:");
+        System.out.println(StringsUsed.LISTA_EMPLEADOS);
 
         for (Empleado empleado : this.lista) {
             System.out.println(empleado);
