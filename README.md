@@ -2,4 +2,4 @@
 
 Amélie Gambín Vitou
 
-[capturabranches.png]
+![Captura de VSC](capturabranches.png)
