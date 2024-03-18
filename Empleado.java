@@ -3,6 +3,12 @@ class Empleado {
     private String cargo;
     private double salario;
 
+    /**
+     * Constructor de un objeto Empleado
+     * @param nombre
+     * @param cargo
+     * @param salario
+     */
     public Empleado(String nombre, String cargo, double salario) {
         this.nombre = nombre;
         this.cargo = cargo;

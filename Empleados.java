@@ -4,6 +4,9 @@ class Empleados{
 
     private ArrayList<Empleado> lista = new ArrayList<>();
 
+    /**
+     * Pinta todos los empleados de la lista
+     */
     public void listarEmpleados(){
 
         System.out.println(StringsUsed.LISTA_EMPLEADOS);
@@ -14,6 +17,10 @@ class Empleados{
 
     }
 
+    /**
+     * Cambia el salario de todos los empleados de la lista aplicándoles el aumento
+     * @param porcentaje
+     */
     public void aumentarSalario(double porcentaje) {
 
         for (Empleado empleado : this.lista) {
@@ -22,6 +29,10 @@ class Empleados{
         }
     }
 
+    /**
+     * Añade a la lista los empleados pasados por parámetro
+     * @param empleados
+     */
     public void darDeAlta(ArrayList<Empleado> empleados){
         this.lista.addAll(empleados);
     }
